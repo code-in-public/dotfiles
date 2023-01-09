@@ -5,8 +5,8 @@ This repo contains the dot files for my Linux environment in a literate configur
 An overview of the applications and what they are for is provided below.
 
 For more information literate configurations and why they are a good idea, I suggest you have a look at [[https://leanpub.com/lit-config/read][Literate Config]] by Diego Zamboni
-* Overview
-I have decided to map each application to a single org file, where possible. For some applications the org file will generate multiple dot files.
+* Configurations
+Each application is mapped to a single literate config file where possible. For some applications the org file will generate multiple dot files.
 ** Bash
 *** TODO
 ** Compton
@@ -22,3 +22,5 @@ I have decided to map each application to a single org file, where possible. For
 ** Xresources
 Xresources is a user-level configuration dotfile, typically located at ~/.Xresources. It can be used to set X resources, which are configuration parameters for X client applications.
 The literate config can be found at [[./Xresources.org][Xresources]]
+* Todo
+** [ ] Figure out how to best handle branching of configuration logic for different hosts
