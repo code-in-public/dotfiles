@@ -10,13 +10,13 @@ All configurations related to the bash terminal can be found in [[x./Bash.org][B
 ** Compton
 Compton is a compositor for X. More details can be found on [[https://github.com/chjj/compton][Compton Github]]
 ** Doom emacs
-*** TODO
+Doom is a configuration framework for GNU Emacs tailored for Emacs bankruptcy veterans who want less framework in their frameworks, a modicum of stability (and reproducibility) from their package manager, and the performance of a hand rolled config (or better).
 ** i3
 I3 is a tilling window manager. More details can be found the [[https://i3wm.org/][i3wm website]]
 ** Polybar
-*** TODO
+Polybar is a fast and easy-to-use tool for creating status bars
 ** rofi
-*** TODO
+Rofi is a window switcher, run dialog, ssh-launcher and dmenu replacement. I am currently using it only as a dmenu replacement.
 ** Xresources
 Xresources is a user-level configuration dotfile, typically located at ~/.Xresources. It can be used to set X resources, which are configuration parameters for X client applications.
 The literate config can be found at [[./Xresources.org][Xresources]]
