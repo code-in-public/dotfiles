@@ -1,0 +1,39 @@
+#+title: Polybar
+** Intro
+Polybar is a fast and easy-to-use tool for creating status bars. It aims to be easily customizable, utilising many modules which enable a wide range of (editable) functionality, such as displaying workspaces, the date, or system volume.
+More details can be found on the [[https://github.com/polybar/polybar][polybar github]]
+** Bashrc boilerplate
+This is the default boiler plate form the default configuration
+#+begin_src conf :tangle ~/.config/polybar/config :padline yes
+[bar/mybar]
+modules-left = i3
+modules-right = lan wlan
+tray-position = right
+font-0 = Noto Sans Mono:style=Regular
+
+[colors]
+black = #000
+white = #fff
+grey = #aaa
+darkgrey = #555
+red = #f00
+green = #0f0
+
+[module/i3]
+type = internal/i3
+
+label-focused = %index%
+label-focused-background = ${colors.darkgrey}
+label-focused-foreground = ${colors.white}
+label-focused-underline= ${colors.primary}
+label-focused-padding = 1
+
+label-unfocused = %index%
+label-unfocused-foreground = ${colors.grey}
+label-unfocused-padding = 1
+
+label-urgent = %index%
+label-urgent-foreground = ${colors.white}
+label-urgent-background = ${colors.red}
+label-urgent-padding = 1
+#+end_src
