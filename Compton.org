@@ -2,7 +2,7 @@
 ** Intro
 ** Configuration boilerplate
 This is mostly the boilerplate compton configuration
-#+begin_src conf :tangle ~/.config.compton :padline yes
+#+begin_src conf :tangle ~/.config/compton.conf :padline yes
 # Shadow
 shadow = true;
 no-dnd-shadow = true;

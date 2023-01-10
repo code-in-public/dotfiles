@@ -1,20 +1,18 @@
 #+title: Dotfiles
 * Literate configuration
 This repo contains the dot files for my Linux environment in a literate configuration style.
-
 An overview of the applications and what they are for is provided below.
-
 For more information literate configurations and why they are a good idea, I suggest you have a look at [[https://leanpub.com/lit-config/read][Literate Config]] by Diego Zamboni
 * Configurations
 Each application is mapped to a single literate config file where possible. For some applications the org file will generate multiple dot files.
 ** Bash
-*** TODO
+All configurations related to the bash terminal can be found in [[x./Bash.org][Bash]]
 ** Compton
-*** TODO
+Compton is a compositor for X. More details can be found on [[https://github.com/chjj/compton][Compton Github]]
 ** Doom emacs
 *** TODO
 ** i3
-*** TODO
+I3 is a tilling window manager. More details can be found the [[https://i3wm.org/][i3wm website]]
 ** Polybar
 *** TODO
 ** rofi
